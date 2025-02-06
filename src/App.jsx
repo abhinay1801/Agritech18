@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-300 flex flex-col items-center">
-        <nav className="w-full bg-white shadow-md p-4 flex justify-between items-center">
+        <nav className="w-full bg-white shadow-md p-2 flex justify-between items-center">
           <div className="text-xl font-bold flex items-center">
             <span className="mr-2">🌳</span> TeamAlpha
           </div>
@@ -37,7 +37,7 @@ function App() {
 
         {/* Footer Navigation Bar */}
         <footer className="fixed bottom-0 w-full bg-blue-500 p-4 flex justify-around text-white">
-          <Link to="/" className="flex flex-col items-center">
+          <Link to="/home" className="flex flex-col items-center">
             <span>🏠</span>
             <span>Home</span>
           </Link>
